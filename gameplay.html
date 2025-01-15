@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/gameplay.css">
+
+    <title>Tailer and Gameplay</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img src="images/mainimage.jpg" alt="Click Here To Return To Home" title="Click Here to Return to Home"></a>
+        <h2>Gameplay</h2>
+        
+
+        <button id="displayMenu" data-visable="false"></button>
+
+        <i onclick="showMenu()" id="hamburger-icon" class="fa-solid fa-bars"></i>
+        <i onclick="hideMenu()" id="x-icon" class="fa-duotone fa-rectangle-xmark"></i>
+        <nav id="navigation" data-visable="false">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="botw.html">BOTW Image Gallery and Info Page</a></li>
+                <li><a href="nintendo.html">Nintendo Videos</a></li>
+                <li><a href="gameplay.html">Gameplay Slideshow</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav>
+
+    <main>
+
+        <section>
+            <article id="vid1">
+                <h4>Trailer</h4>
+                <div class="videowrapper">
+                    <iframe src="https://player.vimeo.com/video/199290634?h=e16bd91d18" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/199290634"></a>  <a href="https://vimeo.com/videogamershu"></a>  <a href="https://vimeo.com"></a>.</p>
+                </div>
+                <div class="caption">
+                </div>
+            </article>
+            <article id="vid2">
+                <h4> Gameplay</h4>
+                <div class="videowrapper">
+                    <iframe src="https://player.vimeo.com/video/494814496?h=600c39c227" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/494814496"></a>  <a href="https://vimeo.com/user117462264"></a>  <a href="https://vimeo.com"></a>.</p>
+                </div>
+                <div class="caption"></div>
+            </article>
+
+        </section>
+
+
+        <div>
+            <button onclick="topFunction()" id="cornerBtn" title="Go to top"> <i class="fa-regular fa-square-up"></i>
+            </button>
+        </div>
+
+    </main>
+
+    
+
+
+    <footer>
+        <p> &copy; <span id="copyright" ></span> Sam Garcia</p>
+    </footer>
+
+    <script src="js/gameplay.js"></script>
+</body>
+</html>

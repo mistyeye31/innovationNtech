@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/nintendo.css">
+
+    <title>Nintendo</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="images/mainimage.jpg" alt="Click Here To Return To Home" title="Click Here to Return to Home"></a>
+        <h2>The Making of BOTW</h2>
+        
+
+        <button id="displayMenu" data-visable="false"></button>
+
+        <i onclick="showMenu()" id="hamburger-icon" class="fa-solid fa-bars"></i>
+        <i onclick="hideMenu()" id="x-icon" class="fa-duotone fa-rectangle-xmark"></i>
+        <nav id="navigation" data-visable="false">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="botw.html">BOTW Image Gallery and Info Page</a></li>
+                <li><a href="nintendo.html">Nintendo Slideshow</a></li>
+                <li><a href="gameplay.html">Gameplay Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="imagecarousel">
+                <div class="image fadeout"><img src="images/nintendo1.jpg" alt=""></div>
+                <div class="image fadeout"><img src="images/nintendo2.jpg" alt=""></div>
+                <div class="image fadeout"><img src="images/nintendo3.jpg" alt=""></div>
+                <div class="image fadeout"><img src="images/nintendo4.jpg" alt=""></div>
+                <div class="prev" onclick="showImage(-1)"><i class="fa-solid fa-forward"></i></div>
+                <div class="next" onclick="showImage(1)"><i class="fa-solid fa-backward"></i></div>
+            </div>
+
+
+
+        </div> 
+
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </main>
+    
+
+    <footer>
+        <p>&copy; <span id="copyright"></span>Sam Garcia</p>
+    </footer>
+
+    <script src="js/nintendo.js"></script>
+</body>
+</html>
