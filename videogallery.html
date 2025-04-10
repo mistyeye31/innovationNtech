@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/Visionary_Music_Group.png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-videogallery.css">
+
+    <title>Jon Bellion and Quinn XCII Video Gallery</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img src="images/logoimage.webp" alt="Click Here To Return To Home" title="Click Here to Return to Home"></a>
+        <h2>Quinn XCII and Jon Bellion Video Gallery</h2>
+
+        <button id="showNavigation" data-visable="false"></button>
+
+        <i onclick="showMenu()" id="hamburger-icon" class="fa-solid fa-bars"></i>
+        <i onclick="hideMenu()" id="x-icon" class="fa-duotone fa-rectangle-xmark"></i>
+        <nav id="navigation" data-visable="false">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="imagegallery.html">Image Gallery</a></li>
+                <li><a href="videogallery.html">Video Gallery</a></li>
+                <li><a href="slideshow.html">Image Carousel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#vid1">Life Must Go On, Quinn XCII</a></li>
+            <li><a href="#vid2">Guillotine, Jon Bellion</a></li>
+            <li><a href="#vid3">Simple and Sweet, Jon Bellion</a></li>
+            <li><a href="#vid4">Notice Me, Quinn XCII</a></li>
+            <li><a href="#vid5">Let's Begin  LIVE, Jon Bellion</a></li>
+        </ul>
+
+    <main>
+
+        <section>
+            <article id="vid1">
+                <h4>Video 1</h4>
+                <div class="videowrapper">
+                    <iframe src="https://player.vimeo.com/video/309818081?h=93f0dc46fd&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/309818081"></a><a href="https://vimeo.com/drewkirsch"></a><a href="https://vimeo.com"></a>.</p>
+                </div>
+                <div class="caption">
+                </div>
+            </article>
+            <article id="vid2">
+                <h4>Video 2</h4>
+                <div class="videowrapper">
+                    <iframe src="https://player.vimeo.com/video/165732976?h=e35624736c&color=f5f5f5&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/165732976"></a><a href="https://vimeo.com/danielcarberry"></a><a href="https://vimeo.com"></a>.</p>
+                </div>
+                <div class="caption"></div>
+            </article>
+            <article id="vid3">
+                <h4>Video 3</h4>
+                <div class="videowrapper">
+                    <iframe src="https://player.vimeo.com/video/96813662?h=4dee26a26d&color=209e2a&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/96813662"><a href="https://vimeo.com/greenglowfilms"></a><a href="https://vimeo.com"></a>.</p>
+                </div>
+                <div class="caption"></div>
+            </article>
+            <article id="vid4">
+                <h4>Video 4</h4>
+                <div class="videowrapper">
+                    <iframe src="https://player.vimeo.com/video/435866181?h=68dfbd5628" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/435866181"></a><a href="https://vimeo.com/blythethomas"></a><a href="https://vimeo.com"></a>.</p>
+                </div>
+                <div class="caption"></div>
+            </article>
+            <article id="vid5">
+                <h4>Video 5</h4>
+                <div class="videowrapper">
+                    <iframe src="https://player.vimeo.com/video/363100005?h=69c9b0fee1" width="640" height="270" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/363100005"></a><a href="https://vimeo.com/user3231596"></a><a href="https://vimeo.com"></a>.</p>
+                </div>
+                <div class="caption"></div>
+            </article>
+        </section>
+
+
+        <div>
+            <button onclick="topFunction()" id="cornerBtn" title="Go to top"> <i class="fa-regular fa-square-up"></i>
+            </button>
+        </div>
+
+    </main>
+
+    
+
+
+    <footer>
+        <p> &copy; <span id="copyright" ></span> Sam Garcia</p>
+    </footer>
+
+    <script src="js/script-videogallery.js"></script>
+</body>
+</html>
